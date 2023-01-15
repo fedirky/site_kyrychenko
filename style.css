@@ -277,19 +277,19 @@ section:before{
     grid-template-columns: 1fr 1fr;
 }
 
-.second-left-section > .title{
+.second-subsection > .title{
   font-size: clamp(.4rem, 1.6vw, 1.6rem);
   font-weight: 700;
   height:  10%;
 }
 
-.second-left-section > .subtitle{
+.second-subsection > .subtitle{
   text-align: justify;
   font-size: clamp(.3rem, 1.3vw, 1.3rem);
   height:  40%;
 }
 
-.second-left-section{
+.second-subsection{
     padding-top: 10%;
     height: 100%;
     width: 100%;
@@ -302,7 +302,7 @@ section:before{
     box-sizing: border-box;
 }
 
-.second-left-section > span {
+.second-subsection > span {
   height:  30%;
   padding-right: 15%;
 
@@ -316,7 +316,7 @@ section:before{
 }
 
 
-.third-left-section{
+.third-subsection{
   background: #503a3c;
   height: 100%;
   display: flex;
@@ -357,18 +357,18 @@ section:before{
   padding-bottom: 0.5rem;
 }
 
-.third-left-section .female{
+.third-subsection .female{
   width: 70%;
   padding: 5%;
   box-sizing: border-box;
 }
 
-.third-left-section > .table{
+.third-subsection > .table{
   align-items: center;
   overflow: hidden;
 }
 
-.third-left-section > .table > .row{
+.third-subsection > .table > .row{
   float: center;
   gap: 0;
   align-items: center;
@@ -379,7 +379,7 @@ section:before{
   margin-bottom: 2rem;
 }
 
-.third-left-section > .table > .row img{
+.third-subsection > .table > .row img{
   height: 55px;
   width: 55px;
   border-radius: 50%;
@@ -387,7 +387,7 @@ section:before{
   padding: 1%;
 }
 
-.third-left-section > .table > .row .text{
+.third-subsection > .table > .row .text{
   padding-left: 1rem;
   display: flex;
   align-items: flex-start;
@@ -397,12 +397,12 @@ section:before{
   box-sizing: border-box;
 }
 
-.third-left-section > .table > .row .text .title{
+.third-subsection > .table > .row .text .title{
   font-size: 25px;
   font-weight: 500;
 }
 
-.third-left-section > .table > .row .text .subtitle{
+.third-subsection > .table > .row .text .subtitle{
   font-size: 19px;
 }
 
