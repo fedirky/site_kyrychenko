@@ -277,10 +277,33 @@ section:before{
     background: linear-gradient(90deg, rgba(57,42,44,1) 0%, rgba(80,58,60,1) 100%);
 }
 
+.first_and_half_subsection{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 5rem;
+  gap: 2rem;
+  color: white;
+}
+
+.first_and_half_section .title{
+  font-size: clamp(.4rem, 1.6vw, 1.6rem);
+  font-weight: 700;
+  height:  10%;
+}
+
+.first_and_half_section .subtitle{
+  text-align: justify;
+  font-size: clamp(.3rem, 1.3vw, 1.3rem);
+  height:  40%;
+}
+
 .first_and_half_section .slide-container {
   box-sizing: border-box;
   width: 1.5fr;
-  height:calc(100vh - var(--header-height));
+  height: 90vh;
   /* height: calc(100vh - var(--header-height)); */
   display: flex;
   align-items: center;
