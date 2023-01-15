@@ -398,12 +398,12 @@ section:before{
 }
 
 .third-subsection > .table > .row .text .title{
-  font-size: 25px;
+  font-size: clamp(.4rem, 1.6vw, 1.6rem);
   font-weight: 500;
 }
 
 .third-subsection > .table > .row .text .subtitle{
-  font-size: 19px;
+  font-size: clamp(.3rem, 1.2vw, 1.2rem);
 }
 
  .map{
