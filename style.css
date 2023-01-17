@@ -260,12 +260,11 @@ section:before{
 }
 
 .first-right-section span p {
-  font-size: 1.6rem;
-  text-align: center;
+    font-size: clamp(.3rem, 3.5vh, 1.5rem);
+    text-align: center;
 }
 
 .bold {
-  font-size: 2.5rem;
   font-weight: 750;
 }
 
@@ -292,27 +291,27 @@ section:before{
 }
 
 .first_and_half_section .title{
-  font-size: clamp(.4rem, 1.6vw, 1.5rem);
-  font-weight: 700;
+    font-size: clamp(.3rem, 2.3vh, 1.5rem);
+    font-weight: 700;
+    overflow: visible;
 }
 
 .first_and_half_section .subtitle{
-  text-align: justify;
-  font-size: clamp(.3rem, 1.1vw, 1.2rem);
+    text-align: justify;
+    font-size: clamp(.3rem, 1.9vh, 1.3rem);
 }
 
 .first_and_half_section .slide-container {
   box-sizing: border-box;
-  height: calc(99.9vh - var(--header-height));
+  height: calc(99.8vh - var(--header-height));
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
 }
 
 .first_and_half_section .image-slider{
   width: 100%;
-  height: 600px;
+  height: calc(99.8vh - var(--header-height));
   position: static;
   left: 0;
   display: flex;
@@ -385,14 +384,16 @@ section:before{
 }
 
 .second-subsection > .title{
-  font-size: clamp(.4rem, 1.6vw, 1.6rem);
-  font-weight: 700;
-  height:  10%;
+    font-size: clamp(.4rem, 1.6vw, 1.6rem);
+    font-weight: 700;
+    height:  10%;
+    overflow: visible;
+
 }
 
 .second-subsection > .subtitle{
   text-align: justify;
-  font-size: clamp(.3rem, 1.3vw, 1.3rem);
+  font-size: clamp(.3rem, 2.5vh, 1.3rem);
   height:  40%;
 }
 
