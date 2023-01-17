@@ -330,24 +330,24 @@ section:before{
 .first_and_half_section .img{
   border-radius: 2%;
   position: relative;
-  width: 20vh;
-  height: calc(420/315 * 20vh);
+    width: 10vw;
+  height: calc(420/315 * 10vw);
   transition: 0.5s;
 }
 
 .first_and_half_section .button {
   border-radius: 2%;
   position: absolute;
-  width: 20vh;
-  height: calc(420/315 * 20vh);
+  width: 10vw;
+  height: calc(420/315 * 10vw);
   transition: 0.5s;
   background-color: rgba(28, 18, 18, 0.6);
 }
 
 #slider-span1:target ~ .image-slider #img1,
 #slider-span1:target ~.image-slider #button-1{
-    width:40vh;
-    height: calc(420/315 * 40vh);
+    width: 16vw;
+    height: calc(420/315 * 16vw);
     background-color: transparent;
 }
 #slider-span2:target ~ .image-slider #img2,
