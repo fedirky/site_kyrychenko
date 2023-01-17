@@ -346,21 +346,21 @@ section:before{
 
 #slider-span1:target ~ .image-slider #img1,
 #slider-span1:target ~.image-slider #button-1{
-    width: 16vw;
-    height: calc(420/315 * 16vw);
+    width: 18vw;
+    height: calc(420/315 * 18vw);
     background-color: transparent;
 }
 #slider-span2:target ~ .image-slider #img2,
 #slider-span2:target ~.image-slider #button-2{
-    width:40vh;
-    height: calc(420/315 * 40vh);
+    width: 18vw;
+    height: calc(420/315 * 18vw);
     background-color: transparent;
     background-color: transparent;
 }
 #slider-span3:target ~ .image-slider #img3,
 #slider-span3:target ~.image-slider #button-3{
-    width:40vh;
-    height: calc(420/315 * 40vh);
+    width: 18vw;
+    height: calc(420/315 * 18vw);
     background-color: transparent;
     background-color: transparent;
   }
